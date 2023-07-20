@@ -45,6 +45,8 @@ optional = true
 [dependencies.openblas-src]
 version = "0.10"
 optional = true
+git = "https://github.com/postgresml/openblas-src"
+branch = "master"
 
 [dependencies.r-src]
 version = "0.1"
